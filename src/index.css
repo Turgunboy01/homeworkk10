@@ -1,0 +1,24 @@
+.row {
+  height: 87vh;
+  border-bottom: 1px soid;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.prev {
+  transform: rotate(180deg);
+}
+
+.card {
+  height: 250px;
+  transition: 0.4s ease;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.pagination {
+  padding: 20px 0;
+}
